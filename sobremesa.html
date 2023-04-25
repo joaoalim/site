@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="shortcut icon" href="IMAGENS/bolo-icon.ico" type="image/x-icon">
+    <title>Confeitos da Jô</title>
+</head>
+
+
+<body>
+    <h1>Aqui estão nossas opções de sobremesas para você</h1>
+    <form action="pedido.php" method="get">
+        <main>
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="IMAGENS/potechocolate_2.jpg" class="im1">
+                            <h2>Chocolate</h2>
+                        </div>
+                    </div>
+
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Bolo de pote feito com chocolate tradicional.
+                            <p><br>
+                                <input class="preços" type="checkbox" name="wchocolate"><br><br>
+                            <p>12R$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="IMAGENS/poteninho_4.jpg">
+                            <h3>Nutella e Ninho</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Bolo de pote feito com nutella e leite ninho.
+                            <p><br>
+                                <input class="preços" type="checkbox" name="wnutella" id=""><br><br>
+                            <p>15R$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="IMAGENS/potemaracuja_2.jpg">
+                            <h3>Maracujá</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Bolo de pote feito com leite condensado e maracujá.
+                            <p><br>
+                                <input class="preços" type="checkbox" name="wmaracuja" id=""><br><br>
+                            <p>15R$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="action-button animate green" value="Prosseguir">
+        </main>
+    </form>
+</body>
+
+</html>
