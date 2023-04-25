@@ -1,0 +1,110 @@
+div{
+    width: 80%;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+      box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    background: #ffffff;
+      border: 0 none;
+    padding: 20px 30px;
+      box-sizing: border-box;
+      margin: 0 10%;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(#e9a6b5 5%,#ffecff 40%);
+    justify-content: center;
+    align-items: center; 
+    display: grid;   
+    place-items: center;
+  }
+  
+  svg {
+    width: 100px;
+    display: block;
+    margin: 40px auto 0;
+    }
+    
+    .path {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 0;
+    }
+      .circle {
+        -webkit-animation: dash .9s ease-in-out;
+        animation: dash .9s ease-in-out;
+      }
+      .line {
+        stroke-dashoffset: 1000;
+        -webkit-animation: dash .9s .35s ease-in-out forwards;
+        animation: dash .9s .35s ease-in-out forwards;
+      }
+      .check {
+        stroke-dashoffset: -100;
+        -webkit-animation: dash-check .9s .35s ease-in-out forwards;
+        animation: dash-check .9s .35s ease-in-out forwards;
+      }
+    
+    p {
+      text-align: center;
+      margin: 20px 0 60px;
+      font-size: 1.25em;
+      }
+      .success {
+        color: #73AF55;
+      }
+        
+    @-webkit-keyframes dash {
+      0% {
+        stroke-dashoffset: 1000;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    @keyframes dash {
+      0% {
+        stroke-dashoffset: 1000;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    @-webkit-keyframes dash-check {
+      0% {
+        stroke-dashoffset: -100;
+      }
+      100% {
+        stroke-dashoffset: 900;
+      }
+    }
+    
+    @keyframes dash-check {
+      0% {
+        stroke-dashoffset: -100;
+      }
+      100% {
+        stroke-dashoffset: 900;
+      }
+  }
+  
+  p{
+    font-size: 30px;
+    font-style: italic;
+    color: #6c9a5f;
+    margin-bottom: 5px;
+  }
+  
+  input{
+  background: none;
+  border: none;
+  background-color: #6c9a5f;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  }

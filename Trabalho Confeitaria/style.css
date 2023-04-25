@@ -1,0 +1,179 @@
+html {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background-color: pink;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 3px 0 rgba(45, 54, 76, 0.12);
+  border-bottom: 1px solid #e9e8f3;
+}
+
+header img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+* {
+  font-family: OpenSans;
+  color: #303960;
+}
+
+user agent stylesheet header {
+  display: block;
+}
+
+
+header a,
+.comentarioLado a {
+  font-weight: 800;
+  margin-left: 25px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #ffd4dd;
+  background-color: #ffd4dd;
+  text-decoration: none;
+  color: #594541;
+}
+
+header a:hover,
+.comentarioLado a:hover {
+  color: palevioletred;
+}
+
+body {
+  background:
+    linear-gradient(#ffdde4 40%, #ffd4dd 80%);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  word-wrap: break-word;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+div#Sobre {
+  width: 100%;
+  padding: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  top: 80px;
+  color: #000000;
+  background-color: pink;
+  margin-top: 350px;
+}
+
+
+div#Sobre div.comentarioLado {
+  width: 900px;
+  background-color: rgb(255, 222, 235);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.hobby {
+  padding: 10;
+}
+
+div#Sobre img {
+  margin-left: 20px;
+
+}
+
+footer {
+  position: relative;
+  top: 80px;
+  background-color: pink;
+  width: 100%;
+}
+
+footer div.alinhar {
+  display: inline-flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+footer#contao div.links {
+  padding: 10px;
+  margin-left: 125px;
+  width: 225px;
+
+}
+
+footer * {
+  color: #000000;
+}
+
+.fonte {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #594541;
+}
+
+.fonte2 {
+  font-family: Snell Roundhand, cursive;
+}
+
+div#Sobre div.comentarioLado a {
+
+  margin-left: 750px;
+}
+
+div.divImgBo {
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        display: block;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header a {
+        display: inline-flex;
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    div.divImgBo {
+        margin-top: 100px;
+    }
+
+    div.carousel-item .w-50 {
+        width: 90% !important;
+    }
+
+    div#Sobre {
+        margin-top: 0px;
+        display: block;
+    }
+
+    div#Sobre div.comentarioLado {
+        width: auto;
+    }
+
+    div#Sobre img {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .videoYoutube {
+        width: 100%;
+    }
+
+}
